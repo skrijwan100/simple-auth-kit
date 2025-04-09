@@ -1,0 +1,23 @@
+{
+  "name": "simple-auth-kit",
+  "version": "1.0.0",
+  "description": "Simple auth utility for Node.js with MongoDB and JWT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \\\"No tests yet\\\" && exit 0"
+  },
+  "keywords": [
+    "auth",
+    "jwt",
+    "mongodb",
+    "user"
+  ],
+  "author": "Sk Rijwan",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.13.2"
+  }
+}
