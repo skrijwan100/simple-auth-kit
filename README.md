@@ -1,6 +1,6 @@
 # simple-auth-kit 🔐
 ---
-## ✨ Provide authentication with write backend code 
+## ✨ Provide authentication with write less backend code 
 ---
 A simple and reusable Node.js authentication package using **MongoDB**, **JWT**, and **bcrypt**. Just plug it into your frontend project and go!
 
@@ -17,7 +17,7 @@ const { connectDB, register, login } = require("simple-auth-kit");
 
 // Connect to MongoDB
 connectDB("mongodb://localhost:27017/testauth");
-
+--
 // Register a new user
 const reg = async () => {
   const res = await register({
@@ -30,7 +30,7 @@ const reg = async () => {
   console.log(res);
 };
 reg();
-
+--
 // Login the user
 const loginuser = async () => {
   const res = await login({
@@ -40,7 +40,15 @@ const loginuser = async () => {
   console.log(res);
 };
 loginuser();
+--
+//get the User 
+const userdata= async()=>{
+  const token= 'auth token that you store in local storage.'
+      const res= await getuser(token)
+      console.log(res)
 
+}
+userdata()
 //More sample code are comming 
 
 
