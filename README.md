@@ -17,8 +17,8 @@ const { connectDB, register, login } = require("simple-auth-kit");
 
 // in your backend index.js page when you connect to your mongo you don't need to make db.js page just call this function use your mongo connection string ---->
 connectDB("mongodb://localhost:27017/testauth");
-// after run this if your mongo in connect you see in your tarminal console this-->
 ```
+# after run this if your mongo in connect you see in your tarminal console this-->
 ```bash
 ✅ MongoDB connected
 ```
