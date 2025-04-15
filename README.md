@@ -15,9 +15,14 @@ npm install simple-auth-kit
 ```js
 const { connectDB, register, login } = require("simple-auth-kit");
 
-// Connect to MongoDB
+// in your backend index.js page when you connect to your mongo you don't need to make db.js page just call this function use your mongo connection string ---->
 connectDB("mongodb://localhost:27017/testauth");
---
+// after run this if your mongo in connect you see in your tarminal console this-->
+```
+```bash
+✅ MongoDB connected
+```
+```js
 // Register a new user
 const reg = async () => {
   const res = await register({
@@ -30,7 +35,7 @@ const reg = async () => {
   console.log(res);
 };
 reg();
---
+
 // Login the user
 const loginuser = async () => {
   const res = await login({
@@ -40,13 +45,12 @@ const loginuser = async () => {
   console.log(res);
 };
 loginuser();
---
+
 //get the User 
 const userdata= async()=>{
   const token= 'auth token that you store in local storage.'
       const res= await getuser(token)
       console.log(res)
-
 }
 userdata()
 //More sample code are comming 
