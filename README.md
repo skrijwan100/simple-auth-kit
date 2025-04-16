@@ -60,7 +60,7 @@ const upuserdata=async()=>{
     username:'rani day',
     address:'rupsona',
     gender:'female',
-    authtoken:'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjdmODEwMjY2ZTFhM2MyNjYzOTM5ZTViIiwiaWF0IjoxNzQ0ODMzNjE5fQ.8mAQa16_Yq_ByebVI8MQyuTqN9BEk7qF0QvDTfKRMsQ'
+    authtoken:'USE AUTH TOKEN'
   })
   console.log(res)
 }
