@@ -65,8 +65,14 @@ const upuserdata=async()=>{
   console.log(res)
 }
 upuserdata();
+const userdel=async()=>{
+  const res= await delteuser('USE AUTH TOKEN');
+  console.log(res)
+}
+userdel()
 ```
 ---
+
 ## More sample code are comming 
 
 
