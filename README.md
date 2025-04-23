@@ -10,7 +10,6 @@ A simple and reusable Node.js authentication package using **MongoDB**, **JWT**,
 ## 🚀 Installation
 ```bash
 npm install simple-auth-kit
- 
 ```
 ## 🛠️ Usage
 
@@ -76,6 +75,4 @@ userdel()
 ---
 
 ## More sample code are comming 
-
-
-
+---
