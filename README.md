@@ -65,6 +65,7 @@ const upuserdata=async()=>{
   console.log(res)
 }
 upuserdata();
+//delete thw user
 const userdel=async()=>{
   const res= await delteuser('USE AUTH TOKEN');
   console.log(res)
