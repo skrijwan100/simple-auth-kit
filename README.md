@@ -1,14 +1,15 @@
 # simple-auth-kit 🔐
 ---
-## ✨ Provide authentication with write less backend code 
+## ✨ Provide authentication with write less backend code.
 ---
 A simple and reusable Node.js authentication package using **MongoDB**, **JWT**, and **bcrypt**. Just plug it into your frontend project and go!
-
+---
+## Anyone can contribute just thik innovative and add new features.
+## Our target is make manualy authentication ease and less line of code.
 ---
 ## 🚀 Installation
 ```bash
 npm install simple-auth-kit
-
 ```
 ## 🛠️ Usage
 
@@ -75,6 +76,4 @@ userdel()
 ---
 
 ## More sample code are comming 
-
-
-
+---
