@@ -78,6 +78,6 @@ userdel()
 ## More sample code are comming 
 ---
 ```js
-router.post("/login",async(req,res)=>{
+router.post("/register",async(req,res)=>{
 
 })
