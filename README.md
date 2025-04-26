@@ -79,5 +79,5 @@ userdel()
 ---
 ```js
 router.post("/register",async(req,res)=>{
-
+    const {name,email}= req.body();
 })
