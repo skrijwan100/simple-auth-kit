@@ -80,11 +80,17 @@ userdel()
 ```js
 router.post("/register",async(req,res)=>{
     const {name,email,address,gender, password}= req.body();
-const res = await register({
-    name: "Rijwan",
-    email: "rijwan@example.com",
-    address: "India",
-    gender: "male",
-    password: "pass123"
-  });
+    const res = await register({
+      name: "Rijwan",
+      email: "rijwan@example.com",
+      address: "India",
+      gender: "male",
+      password: "pass123"
+    });
+    if(!res.status){
+      res.status(400).json({"message":"send coustom message for your are email alreda have a account"})
+    }
+
+      res.status(200).json({"message":"send coustom message for register done"})
+
 })
