@@ -1,6 +1,6 @@
 {
   "name": "simple-auth-kit",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Simple auth utility for Node.js with MongoDB and JWT",
   "main": "index.js",
   "directories": {
