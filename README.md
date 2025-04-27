@@ -80,4 +80,11 @@ userdel()
 ```js
 router.post("/register",async(req,res)=>{
     const {name,email,address,gender, password}= req.body();
+const res = await register({
+    name: "Rijwan",
+    email: "rijwan@example.com",
+    address: "India",
+    gender: "male",
+    password: "pass123"
+  });
 })
