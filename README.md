@@ -79,7 +79,7 @@ userdel()
 ---
 ```js
 router.post("/register",async(req,res)=>{
-    const {name,email,address,gender, password}= req.body();
+    const {name,email,address,gender, password}= req.body;
     const res = await register({
       name: "Rijwan",
       email: "rijwan@example.com",
@@ -92,5 +92,13 @@ router.post("/register",async(req,res)=>{
     }
 
       res.status(200).json({"message":"send coustom message for register done"})
+
+})
+router.post("/login",async(req,res)=>{
+  const {email,password}=req.body;
+  const res = await login({
+    email: "rijwan@example.com",
+    password: "pass123"
+  });
 
 })
