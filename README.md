@@ -102,3 +102,7 @@ router.post("/login",async(req,res)=>{
   });
 
 })
+
+router.get("/getuser",async(req,res)=>{
+
+})
